@@ -5,13 +5,13 @@ namespace experiment {
 
 // Foo class.
 class Foo {
-public: 
+public:
   Foo() = default;
   virtual ~Foo() = default;
 
   virtual void Print();
 };
 
-}
+} // namespace experiment
 
 #endif // EXPERIMENTS_FOO_H_

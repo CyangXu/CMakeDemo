@@ -1,12 +1,9 @@
 #include "iostream"
 
-#include "experiments/foo.h"
+#include "effective_modern_cpp/deducing_types.h"
 
 int main() {
-    std::cout << "hello world\n";
+  
 
-    experiment::Foo foo;
-    foo.Print();
-
-    return 0;
+  return 0;
 }

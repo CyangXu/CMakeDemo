@@ -4,8 +4,6 @@
 
 namespace experiment {
 
-void Foo::Print() {
-  std::cout << "Foo Print\n";
-}
+void Foo::Print() { std::cout << "Foo Print\n"; }
 
-}
+} // namespace experiment
